@@ -1,0 +1,10 @@
+import tkinter as tk
+import password_final_code_vstrustee_final as app_module
+from vault_theme_injector import apply_advanced_neon_theme
+
+root = tk.Tk()
+
+apply_advanced_neon_theme(root)
+
+app = app_module.VSTrusteeApp(root)
+root.mainloop()
